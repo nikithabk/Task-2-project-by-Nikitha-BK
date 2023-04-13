@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="taskModelStoreContainer" CdmEntityContainer="taskEntities">
+    <EntitySetMapping Name="RTODetails">
+      <EntityTypeMapping TypeName="taskModel.RTODetail">
+        <MappingFragment StoreEntitySet="RTODetails">
+          <ScalarProperty Name="employeeID" ColumnName="employeeID" />
+          <ScalarProperty Name="complianceType" ColumnName="complianceType" />
+          <ScalarProperty Name="dateRange" ColumnName="dateRange" />
+          <ScalarProperty Name="dateSelected" ColumnName="dateSelected" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
